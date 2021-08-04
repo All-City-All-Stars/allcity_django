@@ -11,6 +11,8 @@ gunicorn = "*"
 djoser = "*"
 whitenoise = "*"
 dj-database-url = "*"
+django-extensions = "*"
+djangorestframework = "*"
 
 [dev-packages]
 
