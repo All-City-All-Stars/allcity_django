@@ -5,6 +5,7 @@ class Post(models.Model):
     author = models.CharField(max_length=100, default="Anonymous")
     location = models.CharField(max_length=100, default="Unknown")
     caption_body = models.TextField(default="")
+    likes = models.IntegerField(default=0)
     post_time = models.DateTimeField(auto_now_add=True)
 
     def __str__(self):
