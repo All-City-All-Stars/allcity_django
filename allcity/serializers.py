@@ -13,6 +13,7 @@ class PostSerializer(serializers.HyperlinkedModelSerializer):
             'author',
             'location',
             'caption_body',
+            'likes',
             'post_time',
             'comments',
         )
