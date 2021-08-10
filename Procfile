@@ -1,0 +1,1 @@
+web: gunicorn allcity_django.wsgi
